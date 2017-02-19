@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Upload your document</title>
+	<link rel="stylesheet" href="css/popUpWindowStyle.css" type="text/css">
+	<script src="js/popUpScript.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="mainblock">
+		<div class="upload_file_card">
+			<form action="#" id="upload_form">
+				<input type="file" method="post" name="fileToUpload" id="fileToUpload" class="hide" onchange="nameF = this.value ,setname() ">
+				<label for="fileToUpload" id="label">Choose yours the best photo of cabbage</label>
+				<input type="submit" id="upload_submit" value="Upload" onclick="checkFile()">
+			</form>
+			</div>
+	</div>
+</body>
+</html>
